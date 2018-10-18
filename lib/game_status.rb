@@ -16,4 +16,15 @@ WIN_COMBINATIONS = [
 ]
   
 for each win_combination in WIN_COMBINATIONS
+
   # Position Indexes
+  win_index_1 = win_combination[0]
+  win_index_2 = win_combination[1]
+  win_index_3 = win_combination[2]
+  
+  position_1 = board[win_index_1]
+  position_2 = board[win_index_2]
+  position_3 = board[win_index_3]
+  
+  if position_1 == "X" && position_2 == "X" && position_3 == "X"
+    return win_combination
