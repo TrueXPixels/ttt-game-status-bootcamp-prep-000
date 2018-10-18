@@ -10,5 +10,6 @@ WIN_COMBINATIONS = [
   [6, 7, 8], # Bottom Row
   [0, 3, 6], # Left Column
   [1, 4, 7], # Middle Column
+  [2, 5, 8], # Right Column
   
   ]
